@@ -6,7 +6,6 @@ import processCard from "./src/processor/cardConfig.js";
 function ensureDirectory(path) {
   if(!existsSync(path)) mkdirSync(path, {recursive: true});
 }
-ensureDirectory("./dist/data/pureText");
 ensureDirectory("./dist/data/formatted");
 
 processAS("./src/data", "./dist");
