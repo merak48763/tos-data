@@ -13,6 +13,7 @@ export default function processLS(dataPath, distPath) {
     const rawDesc = translation[`LEADER_DESC_${key}`] ?? `LEADER_DESC_${key}`;
 
     pureTextData[key] = {
+      name: translation[`LEADER_${key}`],
       description: rawDesc
     };
   });
