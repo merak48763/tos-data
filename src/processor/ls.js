@@ -19,7 +19,7 @@ export default function processLS(dataPath, distPath) {
   });
 
   /*
-  writeFileSync(path.join(distPath, "data", "pureText", "ls.json"), JSON.stringify({
+  writeFileSync(path.join(distPath, "data", "ls.json"), JSON.stringify({
     sn: serialNumber,
     data: pureTextData
   }));
@@ -28,6 +28,6 @@ export default function processLS(dataPath, distPath) {
     data: pureTextData
   }));
   */
-  writeFileSync(path.join(distPath, "data", "pureText", "ls.json"), JSON.stringify(pureTextData));
+  writeFileSync(path.join(distPath, "data", "ls.json"), JSON.stringify(pureTextData));
   writeFileSync(path.join(distPath, "data", "formatted", "ls.json"), JSON.stringify(pureTextData));
 }
