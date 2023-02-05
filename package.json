@@ -1,0 +1,16 @@
+{
+  "name": "tos-data",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "gh-page -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merak48763/tos-data.git"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "type": "module"
+}
